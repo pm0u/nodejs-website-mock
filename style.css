@@ -1,0 +1,102 @@
+body {
+  font: 400 20px/1.5 'Source Sans Pro','Open Sans','Roboto','San Francisco', Arial;
+  width: 100%;
+  margin: 0;
+}
+
+
+
+
+#logo {
+  max-height: 75px;
+  max-width: 180px;
+  place-self: center;
+}
+
+header {
+  background-color: #333333;
+  color: #ccc;
+  font-size: 14px;
+  display: grid;
+  grid-template-rows: auto 4em;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 0;
+
+}
+nav {
+  place-self:center;
+}
+
+header a {
+  color: #ccc;
+  text-decoration: none;
+  padding: .4em;
+}
+ul {
+  list-style-type: disc;
+}
+
+.list-divider-pipe{
+  margin:0;
+  padding:0;
+}
+.list-divider-pipe li{
+  display:inline-block;
+  padding-bottom:12px;
+}
+.list-divider-pipe li + li:before{
+  content:'|';
+  padding:0 .3em 0 .3em;
+  color:#999
+}
+
+.nav-foundation {
+  background-color: #026e00;
+  margin-left: 8px;
+  padding: 12px;
+}
+.nav-foundation:before {
+  content: none!important;
+}
+
+main {
+  text-align: center;
+}
+
+main a {
+  color: #026e00;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: white;
+  background-color: #026e00;
+}
+
+div.dl-buttons {
+  margin: auto;
+  justify-content: center;
+  width: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto 2.5em;
+  grid-column-gap: 1em;
+
+}
+
+div.dl-button {
+  background-color: #026e00;
+  color: white;
+  padding: 4px 12px 4px 12px;
+  margin: 0 1em 0 1em;
+}
+
+div.dl-button h2 {
+  margin: 0;
+}
+
+.real-small {
+  place-self: center;
+  font-size: .7em;
+}
